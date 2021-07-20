@@ -20,7 +20,7 @@ class Program
     {
 
         List<List<int>> arr = new List<List<int>>();
-        int maxSum = 0;
+        int maxSum = Int32.MinValue;
         List<string> hourGlass = new List<string> { " ", " ", " " };
 
         for (int i = 0; i < 6; i++)
